@@ -28,7 +28,7 @@ public class Anagram {
 		while (sc.hasNext()) {
 			currWord = sc.next();
 			currSortedWord = sortedWord(currWord);
-			anagramList = addAnagram(anagramList, currWord, currSosrtedWord);
+			anagramList = addAnagram(anagramList, currWord, currSortedWord);
 		}
 		return anagramList;
 	}
